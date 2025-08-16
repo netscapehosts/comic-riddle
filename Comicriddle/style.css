@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@font-face{
+    font-family: old;
+    src: url(OLDSH___.TTF) format(TrueType);
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black url(images/background/clock-blur-small.gif) center center/contain no-repeat fixed;
+}
+img{
+    display: block;
+    margin: 200px auto;
+    width: 30vw;
+    height: auto;
+    max-width: 500px;
+    min-width: 250px;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    font-family: old, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-shadow: 4px 4px 1px black;
+    text-align: center;
+    margin: 50vh auto;
+}
+ul{
+    margin: 30px;
+    color: white;
+    font-family: old, 'Times New Roman', Times, serif;
+}
+p{
+    color: white;
+    font-family: old, 'Times New Roman', Times, serif;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
